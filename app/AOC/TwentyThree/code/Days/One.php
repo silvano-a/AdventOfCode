@@ -9,17 +9,17 @@ class One implements Puzzle
 {
     public function solvePartA(): string|null
     {
-        return '12345';
+        return null; //todo: implement
     }
 
     public function solvePartB(): string|null
     {
-        return '56789';
+      return null; //todo: implement
     }
 
     public function getPuzzleInput(): string
     {
-        return File::get(storage_path('../app/AOC/TwentyThree/input/One.input'));
+        return trim(File::get(storage_path('../app/AOC/TwentyThree/input/One.input')));
     }
 
     public function getTitle(): string
